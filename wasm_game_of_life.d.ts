@@ -13,9 +13,11 @@ export class Universe {
 */
   tick(): void;
 /**
+* @param {number} width 
+* @param {number} height 
 * @returns {Universe} 
 */
-  static new(): Universe;
+  static new(width: number, height: number): Universe;
 /**
 * @returns {number} 
 */
@@ -32,4 +34,15 @@ export class Universe {
 * @returns {string} 
 */
   render(): string;
+/**
+*/
+  randomize(): void;
+/**
+*/
+  clear(): void;
+/**
+* @param {number} row 
+* @param {number} column 
+*/
+  toggle_cell(row: number, column: number): void;
 }
