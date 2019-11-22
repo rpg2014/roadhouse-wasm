@@ -1,4 +1,4 @@
-import * as wasm from './wasm_game_of_life_bg.wasm';
+import * as wasm from './roadhouse_wasm_bg.wasm';
 
 let cachegetInt32Memory = null;
 function getInt32Memory() {

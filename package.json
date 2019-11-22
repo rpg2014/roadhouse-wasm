@@ -1,17 +1,16 @@
 {
-  "name": "wasm-game-of-life",
+  "name": "roadhouse-wasm",
   "collaborators": [
     "Parker Given <pgiven14@gmail.com>"
   ],
-  "version": "0.1.1",
+  "version": "0.1.0",
   "files": [
-    "wasm_game_of_life_bg.d.ts",
-    "wasm_game_of_life_bg.wasm",
-    "wasm_game_of_life_bg.d.ts",
-    "wasm_game_of_life.js",
-    "wasm_game_of_life.d.ts"
+    "roadhouse_wasm_bg.wasm",
+    "roadhouse_wasm.js",
+    "roadhouse_wasm.d.ts",
+    "roadhouse_wasm_bg.d.ts"
   ],
-  "module": "wasm_game_of_life.js",
-  "types": "wasm_game_of_life.d.ts",
+  "module": "roadhouse_wasm.js",
+  "types": "roadhouse_wasm.d.ts",
   "sideEffects": "false"
 }
